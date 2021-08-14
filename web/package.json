@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults",
+      "not IE 11",
+      "not IE_Mob 11"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@redwoodjs/forms": "0.35.2",
+    "@redwoodjs/router": "0.35.2",
+    "@redwoodjs/web": "0.35.2",
+    "@usedapp/core": "^0.4.4",
+    "framer-motion": "^4",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
